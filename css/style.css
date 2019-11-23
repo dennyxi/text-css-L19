@@ -6,7 +6,7 @@
   position: fixed;
   width: 100%;
   height: 90px;
-  padding: 22px;
+  padding: 52px;
   background-color: rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
@@ -19,7 +19,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  padding: 22px;
+  padding: 52px;
 }
 .logo-size {
   width: 20%;
@@ -27,10 +27,11 @@
 }
 .nav-logo {
   display: block;
+  width: 360px;
+  height: 90px;
   background-image: url(/images/header-white-logo.svg);
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  background-size: 100% 100%;
   background-position: 50% 50%;
 }
 .header-container:hover .nav-logo {
@@ -55,12 +56,12 @@ li {
   align-items: center;
 }
 .nav-container ul li {
-  padding: 0 25px;
+  padding: 0 40px;
 }
 .nav-right {
   width: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .nav-right-font {
@@ -78,10 +79,10 @@ li {
 }
 .email {
   display: block;
+  width: 100px;
+  height: 100px;
   background-image: url(/images/icon_line_mail-white.svg);
   background-repeat: no-repeat;
-  width: 20%;
-  height: 100%;
   background-position: 50% 50%;
 }
 .header-container:hover .email {
@@ -89,12 +90,69 @@ li {
 }
 .search {
   display: block;
+  width: 100px;
+  height: 100px;
   background-image: url(/images/search-white.svg);
   background-repeat: no-repeat;
-  width: 40%;
-  height: 100%;
+
   background-position: 0 50%;
 }
 .header-container:hover .search {
   background-image: url(/images/search-dark.svg);
 }
+.main-container-first {
+  position: relative;
+}
+.main-container-first-font {
+  position: absolute;
+  top: 11%;
+  left: 25%;
+}
+.main-container-first-font h2 {
+  font-size: 50pt;
+  color: white;
+}
+.main-container-first-font h5 {
+  font-size: 35px;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+}
+.main-container-first-text {
+  display: flex;
+  justify-content: center;
+}
+.main-container-first-text a {
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 30pt;
+  font-weight: normal;
+}
+.text-image {
+  width: 35px;
+  height: 35px;
+
+  background-image: url(/images/chevron-right.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+}
+.main-container-first-text a:hover .text-image {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+@keyframes move {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transition: translatex(0);
+    opacity: 1;
+  }
+}
+/* container-second */
