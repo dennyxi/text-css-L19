@@ -100,8 +100,13 @@ li {
 .header-container:hover .search {
   background-image: url(/images/search-dark.svg);
 }
+/* container-first */
 .main-container-first {
   position: relative;
+}
+.main-container-first img {
+  width: 100%;
+  height: 100%;
 }
 .main-container-first-font {
   position: absolute;
@@ -156,3 +161,233 @@ li {
   }
 }
 /* container-second */
+.container-second {
+  width: 100%;
+  height: 100%;
+}
+.container-second-images {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+/* container-second-image1 */
+.container-second-image1 {
+  width: 50%;
+  margin: 10px;
+  position: relative;
+}
+.container-second-image1 img {
+  width: 100%;
+}
+
+.container-second-font {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  color: #75787b;
+  text-align: center;
+}
+.container-second-font h2 {
+  font-size: 45pt;
+}
+.container-second-font h5 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+.container-second-font a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #75787b;
+  font-size: 30pt;
+  text-decoration: none;
+}
+.text-image1 {
+  width: 40px;
+  height: 40px;
+  background-image: url(/images/chevron-right-dark.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.container-second-font a:hover .text-image1 {
+  animation-name: move1;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+@keyframes move1 {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transition: translatex(0);
+    opacity: 1;
+  }
+}
+/* container-second-image2 */
+.container-second-image2 {
+  width: 50%;
+  margin: 10px;
+  position: relative;
+}
+.container-second-image2 img {
+  width: 100%;
+}
+
+.container-second-font2 {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  color: white;
+  text-align: center;
+}
+.container-second-font2 h2 {
+  font-size: 45pt;
+}
+.container-second-font2 h5 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+.container-second-font2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20pt;
+  text-decoration: none;
+}
+.text-image2 {
+  width: 40px;
+  height: 40px;
+  background-image: url(/images/chevron-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.container-second-font2 a:hover .text-image2 {
+  animation-name: move2;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+@keyframes move2 {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transition: translatex(0);
+    opacity: 1;
+  }
+}
+/* container-second-image3 */
+.container-second-image3 {
+  width: 50%;
+  margin: 10px;
+  position: relative;
+}
+.container-second-image3 img {
+  width: 100%;
+}
+
+.container-second-font3 {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  color: white;
+  text-align: center;
+}
+.container-second-font3 h2 {
+  font-size: 45pt;
+}
+.container-second-font3 h5 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+.container-second-font3 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20pt;
+  text-decoration: none;
+}
+.text-image3 {
+  width: 40px;
+  height: 40px;
+  background-image: url(/images/chevron-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.container-second-font3 a:hover .text-image2 {
+  animation-name: move2;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+@keyframes move2 {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transition: translatex(0);
+    opacity: 1;
+  }
+}
+/* container-second-image4 */
+.container-second-image4 {
+  width: 50%;
+  margin: 10px;
+  position: relative;
+}
+.container-second-image4 img {
+  width: 100%;
+  background-color: #75787b;
+}
+
+.container-second-font4 {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  color: white;
+  text-align: center;
+}
+.container-second-font4 h2 {
+  font-size: 45pt;
+}
+.container-second-font4 h5 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+.container-second-font4 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20pt;
+  text-decoration: none;
+}
+.text-image4 {
+  width: 40px;
+  height: 40px;
+  background-image: url(/images/chevron-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.container-second-font4 a:hover .text-image2 {
+  animation-name: move2;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+@keyframes move2 {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transition: translatex(0);
+    opacity: 1;
+  }
+}
